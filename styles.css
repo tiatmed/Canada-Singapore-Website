@@ -116,7 +116,6 @@ hr {
 
 .sgcanada {
 	color: white;
-	width: 100%;
 }
 
 #sgvscanada {
@@ -124,5 +123,23 @@ hr {
 }
 
 #waves {
+	margin-top: 10em;
+	padding: 0;
 	width: 100%;
+}
+
+#lakemonster {
+	color: white;
+	font-style: light;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+}
+
+#sangnilautama {
+	text-align: center;
+	width: 40%;
+	color: white;
+    left: 0;
+    margin: auto;
+    top: 50%;
 }
