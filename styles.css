@@ -22,14 +22,17 @@ div {
 #fifthpage {
   background: #00d2ff; }
   
-/*#sixthpage {
-	background: url('images/small_steps.png');
-	background-repeat: repeat;
-}*/
+#sixthpage {
+	background: #fbc93d;
+}
 
 #seventhpage {
-	background: url("images/light_grey.png");
+	background: #fb4f4f;
 	background-repeat: repeat;
+}
+
+#sixthpage, #seventhpage {
+	color: white;
 }
 
 h1 {
@@ -131,6 +134,7 @@ p {
   color: white;
     left: 0;
     margin: auto;
+	padding-bottom: 2.5em;
     top: 50%;
 }
 
@@ -155,6 +159,7 @@ p {
     z-index: 5;
     background: #D15C5C url('images/logo.png') no-repeat top 8em center;
     background-size: 100em 25em;
+	width: 100%;
 }
 .layer-1 {
     top: 21.875em;
@@ -198,4 +203,5 @@ td {
 table {
 	padding-left: 2em;
 	padding-right: 2em;
+	max-width: 100%;
 }
