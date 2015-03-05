@@ -21,6 +21,16 @@ div {
 
 #fifthpage {
   background: #00d2ff; }
+  
+/*#sixthpage {
+	background: url('images/small_steps.png');
+	background-repeat: repeat;
+}*/
+
+#seventhpage {
+	background: url("images/light_grey.png");
+	background-repeat: repeat;
+}
 
 h1 {
   font-size: 6em;
@@ -68,7 +78,8 @@ p {
 
 #logo {
   margin-top: 2em;
-  width: 100%; }
+  width: 100%;
+  }
 
 #man {
   margin-top: 0em;
@@ -160,4 +171,25 @@ p {
     background: url('images/confectionary.png');
     width: 100%;
     min-height: 93.75em;
+}
+
+.quotes {
+	font-style: italic;
+}
+
+#editornote {
+	font-style: italic;
+	font-size: 2em;
+}
+
+td {
+	vertical-align: top;
+	width: 33.3333%;
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+table {
+	padding-left: 2em;
+	padding-right: 2em;
 }
