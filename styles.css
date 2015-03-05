@@ -96,7 +96,11 @@ p {
 }
 
 #flame {
-  width: 100%; }
+  width: 100%;
+  top: 100px;
+  position: relative;
+  top: 5.25em;
+}
 
 #sgvscanada {
 	width: 100%;
@@ -110,6 +114,8 @@ p {
   margin-top: 10em;
   padding: 0;
   width: 100%;
+  position: relative;
+  top: 3.55em;
 }
 
 #lakemonster {
@@ -147,8 +153,8 @@ p {
 .layer-0 {
     top: 0;
     z-index: 5;
-    background: #D15C5C url('images/logo.png') no-repeat top 17.5em center;
-    background-size: 60em 15em;
+    background: #D15C5C url('images/logo.png') no-repeat top 8em center;
+    background-size: 100em 25em;
 }
 .layer-1 {
     top: 21.875em;
