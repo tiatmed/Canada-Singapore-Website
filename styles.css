@@ -1,145 +1,163 @@
 body {
-	margin: 0;
-}
-
-img {
-	margin: 0;
-	padding: 0;
+    background: #D15C5C;
+    margin: 0;
+    font-family:'Oswald';
 }
 
 div {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	font-family: 'Open Sans', Verdana, sans-serif;
-}
-
-#frontpage {
-	background: #800000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Open Sans', Verdana, sans-serif;
 }
 
 #secondpage, #thirdpage {
-	background: url("img/confectionary.png");
-	background-repeat: repeat;
+  background: url("img/confectionary.png");
+  background-repeat: repeat;
 }
 
 #fourthpage {
-	background: #ffc800;
-}
+  background: #ffc800; }
 
 #fifthpage {
-	background: #00d2ff;
-}
+  background: #00d2ff; }
 
 h1 {
-	font-size: 6em;
-	font-weight: 400;
-	line-height: 1;
-}
+  font-size: 6em;
+  font-weight: 400;
+  line-height: 1; }
 
 h2 {
-	font-size: 4em;
-	font-weight: 200;
-}
+  font-size: 4em;
+  font-weight: 200; }
 
 h3 {
-	margin-top: 3em;
-	font-size: 3.5em;
-	font-weight: 200;
-}
+  margin-top: 3em;
+  font-size: 3.5em;
+  font-weight: 200; }
 
 p {
-	font-size: 2.5em;
-	font-weight: normal;
-}
-
-hr {
-	margin: 0;
-}
+  font-size: 2.5em;
+  font-weight: normal; }
 
 .top {
-	margin-top: 4em;
-}
+  margin-top: 4em; }
 
 #moose {
-	padding-right: 4em;
-	padding-top: 4em;
-	width: 40%;
-	float: right;
-	position: absolute;
-}
+  padding-right: 4em;
+  padding-top: 4em;
+  width: 40%;
+  float: right; }
 
 #paraleft {
-	width: 33.333333%;
-	text-align: left;
-	margin-top: 15em;
-	padding-left: 20em;
-	padding-bottom: 10em;
-}
+  width: 33.333333%;
+  text-align: left;
+  margin-top: 15em;
+  padding-left: 20em;
+  padding-bottom: 10em; }
 
 #pararight {
-	float: right;
-	width: 33.333333%;
-	text-align: right;
-	margin-top: 10em;
-	padding-right: 20em;
-}
+  float: right;
+  width: 33.333333%;
+  text-align: right;
+  margin-top: 10em;
+  padding-right: 20em; }
 
 #sgheader {
-	margin-top: em;
-}
+  margin-top: 3em; }
 
 #logo {
-	margin-top: 30em;
-	width: 100%;
-}
-
-#sgtoronto {
-	margin: 0;
-	width: 100%;
-}
+  margin-top: 2em;
+  width: 100%; }
 
 #man {
-	margin-top: 0em;
-	padding-left: 20em;
-	width: 20%;
-	float:left;
-}
+  margin-top: 0em;
+  padding-left: 20em;
+  width: 20%;
+  float: left; }
 
 #spicy {
-	margin-top: 45em;
-}
+  margin-top: 45em; }
 
 #flame {
-	width: 100%;
-}
+  width: 100%;
+  position: relative;
+  top: 5.2em; }
 
 .sgcanada {
-	color: white;
-}
-
-#sgvscanada {
-	width: 100%;
-}
+  color: white;
+  width: 100%; }
 
 #waves {
-	margin-top: 10em;
-	padding: 0;
-	width: 100%;
+  margin-top: 10em;
+  position: relative;
+  top: 3.6em;
+  padding: 0;
+  width: 100%;
 }
 
 #lakemonster {
-	color: white;
-	font-style: light;
-	padding-left: 2.5em;
-	padding-right: 2.5em;
+  color: white;
+  font-style: light;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
 #sangnilautama {
-	text-align: center;
-	width: 40%;
-	color: white;
+  text-align: center;
+  width: 40%;
+  color: white;
     left: 0;
     margin: auto;
     top: 50%;
+}
+
+.parallax-container {
+    position: fixed;
+    overflow: visible;
+    width: 100%;
+    height: 62.5em;
+}
+.parallax-layer {
+    width: 100%;
+    height: 31.25em;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-position: bottom center;
+    background-repeat: repeat-x;
+    background-size: 60em 25em;
+}
+.layer-0 {
+    top: 0;
+    z-index: 5;
+    background: #D15C5C url('images/logo.png') no-repeat top 17.5em center;
+    background-size: 60em 15em;
+}
+.layer-1 {
+    top: 25em;
+    z-index: 5;
+    background-image: url('images/singapore.png');
+}
+.layer-2 {
+    top: 37em;
+    z-index: 10;
+    background-image: url('images/montreal.png');
+}
+.layer-3 {
+    top: 29.375em;
+    z-index: 15;
+    background-image: url('images/singaporetoronto.png');
+}
+.content {
+    position: absolute;
+    top: 60.625em;
+    background: url("images/confectionary.png");
+    background-repeat: repeat;
+    width: 100%;
+    min-height: 93.75em;
+}
+
+@-ms-viewport {
+  width: device-width;
 }
