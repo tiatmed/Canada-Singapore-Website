@@ -11,11 +11,9 @@ div {
   font-family: 'Open Sans', Verdana, sans-serif;
 }
 
-#secondpage {
-  background: pink; }
-
-#thirdpage {
-    background: white;   
+#secondpage, #thirdpage {
+	background: url("images/confectionary.png");
+	background-repeat: repeat;
 }
 
 #fourthpage {
@@ -79,11 +77,20 @@ p {
   float: left; }
 
 #spicy {
-  margin-top: 45em; }
+  margin-top: 45em; 
+}
+
+#careful {
+	display: inline-block;
+}
 
 #flame {
   width: 100%; }
 
+#sgvscanada {
+	width: 100%;
+}
+  
 .sgcanada {
   color: white;
   width: 100%; }
@@ -150,7 +157,7 @@ p {
 .content {
     position: absolute;
     top: 60.625em;
-    background: #415a6c;
+    background: url('images/confectionary.png');
     width: 100%;
     min-height: 93.75em;
 }
