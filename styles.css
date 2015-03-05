@@ -11,9 +11,14 @@ div {
   font-family: 'Open Sans', Verdana, sans-serif;
 }
 
-#secondpage, #thirdpage {
-	background: url("images/confectionary.png");
-	background-repeat: repeat;
+#secondpage {
+	background: #FF5E00;
+	color: white;
+}
+
+#thirdpage {
+	padding-top: 1em;
+	background: white;
 }
 
 #fourthpage {
@@ -28,7 +33,6 @@ div {
 
 #seventhpage {
 	background: #fb4f4f;
-	background-repeat: repeat;
 }
 
 #sixthpage, #seventhpage {
@@ -52,9 +56,6 @@ h3 {
 p {
   font-size: 2.5em;
   font-weight: normal; }
-
-.top {
-  margin-top: 4em; }
 
 #moose {
   padding-right: 4em;
@@ -179,18 +180,32 @@ p {
 .content {
     position: absolute;
     top: 60.625em;
-    background: url('images/confectionary.png');
+    background: #FF5E00;
     width: 100%;
     min-height: 93.75em;
 }
 
 .quotes {
-	font-style: italic;
+	font-family: "Ostrich Sans Rounded";
+	font-weight: 500;
+	font-size: 4em;
+	text-align: left;
 }
 
 #editornote {
+	font-family: "Ostrich Sans";
 	font-style: italic;
-	font-size: 2em;
+	font-weight: 400;
+	font-size: 3em;
+	text-align: left;
+}
+
+.whatcanadiansthink {
+	margin: 0;
+	padding-top: 1.6em;
+	font-family: 'Ostrich Sans';
+	font-weight: 700;
+	font-size: 6em;
 }
 
 td {
@@ -204,4 +219,37 @@ table {
 	padding-left: 2em;
 	padding-right: 2em;
 	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: white;	
+}
+
+a:hover {
+	color: white;
+	text-shadow: -1px 1px 4px #ffc, 1px -1px 4px #fff;
+}
+
+a:visited {
+	color: #FFF;
+}
+
+.final {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	display: block;
+	margin: 0;
+	padding-bottom: 0.2em;
+}
+
+#another50years {
+	font-family: 'Oswald', sans-serif;
+	margin-top: 3.5em;
+	margin-bottom: 5em;
+	font-size: 4em;
 }
