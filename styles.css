@@ -1,137 +1,145 @@
 body {
-    background: #D15C5C;
-    margin: 0;
-    font-family:'Oswald';
+	margin: 0;
+}
+
+img {
+	margin: 0;
+	padding: 0;
 }
 
 div {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: 'Open Sans', Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: 'Open Sans', Verdana, sans-serif;
 }
 
-#secondpage {
-  background: pink; }
+#frontpage {
+	background: #800000;
+}
 
-#thirdpage {
-    background: white;   
+#secondpage, #thirdpage {
+	background: url("img/confectionary.png");
+	background-repeat: repeat;
 }
 
 #fourthpage {
-  background: #ffc800; }
+	background: #ffc800;
+}
 
 #fifthpage {
-  background: #00d2ff; }
+	background: #00d2ff;
+}
 
 h1 {
-  font-size: 6em;
-  font-weight: 400;
-  line-height: 1; }
+	font-size: 6em;
+	font-weight: 400;
+	line-height: 1;
+}
 
 h2 {
-  font-size: 4em;
-  font-weight: 200; }
+	font-size: 4em;
+	font-weight: 200;
+}
 
 h3 {
-  margin-top: 3em;
-  font-size: 3.5em;
-  font-weight: 200; }
+	margin-top: 3em;
+	font-size: 3.5em;
+	font-weight: 200;
+}
 
 p {
-  font-size: 2.5em;
-  font-weight: normal; }
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+hr {
+	margin: 0;
+}
 
 .top {
-  margin-top: 4em; }
+	margin-top: 4em;
+}
 
 #moose {
-  padding-right: 4em;
-  padding-top: 4em;
-  width: 40%;
-  float: right; }
+	padding-right: 4em;
+	padding-top: 4em;
+	width: 40%;
+	float: right;
+	position: absolute;
+}
 
 #paraleft {
-  width: 33.333333%;
-  text-align: left;
-  margin-top: 15em;
-  padding-left: 20em;
-  padding-bottom: 10em; }
+	width: 33.333333%;
+	text-align: left;
+	margin-top: 15em;
+	padding-left: 20em;
+	padding-bottom: 10em;
+}
 
 #pararight {
-  float: right;
-  width: 33.333333%;
-  text-align: right;
-  margin-top: 10em;
-  padding-right: 20em; }
+	float: right;
+	width: 33.333333%;
+	text-align: right;
+	margin-top: 10em;
+	padding-right: 20em;
+}
 
 #sgheader {
-  margin-top: 3em; }
+	margin-top: em;
+}
 
 #logo {
-  margin-top: 2em;
-  width: 100%; }
+	margin-top: 30em;
+	width: 100%;
+}
+
+#sgtoronto {
+	margin: 0;
+	width: 100%;
+}
 
 #man {
-  margin-top: 0em;
-  padding-left: 20em;
-  width: 20%;
-  float: left; }
+	margin-top: 0em;
+	padding-left: 20em;
+	width: 20%;
+	float:left;
+}
 
 #spicy {
-  margin-top: 45em; }
+	margin-top: 45em;
+}
 
 #flame {
-  width: 100%; }
+	width: 100%;
+}
 
 .sgcanada {
-  color: white;
-  width: 100%; }
+	color: white;
+}
+
+#sgvscanada {
+	width: 100%;
+}
 
 #waves {
-  width: 100%; }
+	margin-top: 10em;
+	padding: 0;
+	width: 100%;
+}
 
-.parallax-container {
-    position: fixed;
-    overflow: visible;
-    width: 100%;
-    height: 62.5em;
+#lakemonster {
+	color: white;
+	font-style: light;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
 }
-.parallax-layer {
-    width: 100%;
-    height: 31.25em;
-    position: fixed;
+
+#sangnilautama {
+	text-align: center;
+	width: 40%;
+	color: white;
     left: 0;
-    top: 0;
-    background-position: bottom center;
-    background-repeat: repeat-x;
-    background-size: 60em 15.8125em;
-}
-.layer-0 {
-    top: 0;
-    z-index: 5;
-    background: #D15C5C url('images/logo.png') no-repeat top 17.5em center;
-    background-size: 60em 15em;
-}
-.layer-1 {
-    top: 21.875em;
-    z-index: 5;
-    background-image: url('images/singapore.png');
-}
-.layer-2 {
-    top: 31.25em;
-    z-index: 10;
-    background-image: url('images/montreal.png');
-}
-.layer-3 {
-    top: 29.375em;
-    z-index: 15;
-    background-image: url('images/singaporetoronto.png');
-}
-.content {
-    position: absolute;
-    top: 60.625em;
-    background: #415a6c;
-    width: 100%;
-    min-height: 93.75em;
+    margin: auto;
+    top: 50%;
 }
